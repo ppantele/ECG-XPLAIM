@@ -17,8 +17,8 @@ This repository provides a reproducible pipeline for training and evaluating ECG
 Create and activate the conda environment with required packages:
 
 ```bash
-conda env create -f ecg_xplaim_env.yaml
-conda activate ecg_xplaim_env
+conda env create -f custom_dl.yaml
+conda activate custom_dl
 ```
 
 Python version: `3.10+`  
