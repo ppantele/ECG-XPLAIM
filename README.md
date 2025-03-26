@@ -14,7 +14,7 @@ This repository provides a reproducible pipeline for training and evaluating ECG
 
 ## Environment Setup
 
-Create and activate the conda environment with required packages:
+Create and activate the conda environment with required packages in Linux:
 
 ```bash
 conda env create -f custom_dl.yaml
