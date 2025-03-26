@@ -1,4 +1,4 @@
-name: ecg_xplaim_env
+name: custom_dl
 channels:
   - conda-forge
 dependencies:
@@ -452,4 +452,4 @@ dependencies:
       - yarl==1.18.3
       - ydata-profiling==4.12.2
       - ypy-websocket==0.8.4
-prefix: /opt/conda/envs/ecg_xplaim_env
+prefix: /opt/conda/envs/custom_dl
