@@ -52,7 +52,7 @@ wget -r -N -c -np -nH --cut-dirs=3 -P data/mimic-iv https://physionet.org/files/
 Set up the required directory structure and extract annotation metadata for both datasets (PTB-XL and MIMIC-IV): 
 
 ```bash
-python src/initial_setup.py --datasets='all' --data-dir='data/'
+python src_files/initial_setup.py --datasets='all' --data-dir='data/'
 ```
 
 This will generate:
@@ -82,7 +82,7 @@ You can train models either via a Python IDE (e.g., Jupyter Notebook) or through
 ### Python (script / notebook)
 
 ```python
-from src.train import tf_model_train
+from src_files.train import tf_model_train
 
 tf_model_train(
     model_name='ecg_pace_test_IDE_v1', 
@@ -101,7 +101,7 @@ tf_model_train(
 ### CLI
 
 ```bash
-python -m src.train \
+python -m src_files.train \
   --model-name ecg_pace_test_CLI_v1 \
   --label-counts lqt 500 neg 500 \
   --train-ds-name mimic-iv \
@@ -184,7 +184,7 @@ home/
 │   ├── metadata/                # Label metadata (.csv files)
 │   └── imgs/                    # Saved ECG plots and Grad-CAM visualizations
 │
-├── src/                         # Source code
+├── src_files/                   # Source code
 │   ├── ecg_plot.py              # ECG and Grad-CAM visualization utilities
 │   ├── initial_setup.py         # Metadata generation and folder setup
 │   ├── load_helpers.py          # Signal loading utilities
