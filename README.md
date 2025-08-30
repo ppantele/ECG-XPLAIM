@@ -1,6 +1,6 @@
 # ECG-XPLAIM: Deep learning tool for accurate and explainable arrhythmia detection from 12-lead electrocardiogram (ECG) signals
 
-#### Panteleimon Pantelidis, Samuel Ruipérez-Campillo, Julia E Vogt, Alexios Antonopoulos, Ioannis Gialamas, George E Zakynthinos, Polychronis Dilaveris, Jose Millet, Panagiotis Papapetrou, Theodore G Papaioannou, Evangelos Oikonomou, Gerasimos Siasos
+#### Panteleimon Pantelidis, Samuel Ruipérez-Campillo, Julia E Vogt, Alexios Antonopoulos, Ioannis Gialamas, George E Zakynthinos, Polychronis Dilaveris, Jose Millet, Theodore G Papaioannou, Evangelos Oikonomou, Gerasimos Siasos
 
 This repository provides a reproducible pipeline for training and evaluating ECG-XPLAIM (eXPlainable Locally-adaptive Artificial Intelligence Model), which is a deep learning-based model designed for explainable ECG classification, optimized for multi-label classification of 12-lead electrocardiogram (ECG) signals. The model integrates a custom Inception-style one-dimensional convolutional neural network (CNN), specialized for time-series analysis, capturing both local waveform features (waves, intervals, QRS morphology) and global rhythm patterns (RR variability, conduction disturbances).
 
